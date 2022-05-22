@@ -26,11 +26,10 @@ class _payChatState extends State<payChat> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text("Amit Kumar"),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                  Text("+91-6000637319"),
+                  Text("Amit Kumar\n+91-6000637319"),
                   const SizedBox(
                     width: 120,
                   ),
