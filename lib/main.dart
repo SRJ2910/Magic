@@ -13,8 +13,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Magic',
       theme: ThemeData(
-        primarySwatch: Colors.green,
-      ),
+          // primarySwatch: Colors.green,
+          primaryColor: Colors.black,
+          scaffoldBackgroundColor: Colors.white),
       home: payChat(),
     );
   }
